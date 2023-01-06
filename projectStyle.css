@@ -1,0 +1,52 @@
+body {
+    background-color: #191919;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    color: wheat;
+    justify-content: center;
+    padding: 20px;
+}
+
+.title h1 {
+    margin: 30px;
+}
+
+h1 {
+    color: wheat;
+    text-align: center;
+}
+
+.play-again {
+    font-size: 25px;
+    color: wheat;
+    background-color: crimson;
+    border: none;
+    padding: 15px 32px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.play-again:hover {
+    background-color: crimson;
+    color: wheat;
+    opacity: 0.8;
+}
+
+.Rock,
+.Paper,
+.Scissors {
+    font-size: 25px;
+    color: wheat;
+    background-color: crimson;
+    border: none;
+    padding: 15px 32px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin: 20px;
+}
